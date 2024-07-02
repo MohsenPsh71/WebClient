@@ -11,6 +11,7 @@ builder.Services.AddHttpClient("EshopClient", client =>
 
 });
 
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
